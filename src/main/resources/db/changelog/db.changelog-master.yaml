@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changelog-001-create-security-tables.sql
+  - include:
+      file: db/changelog/changelog-002-insert-default-roles.sql
+  - include:
+      file: db/changelog/changelog-003-create-accounts-and-cards-table.sql
+  - include:
+      file: db/changelog/changelog-004-create-transactions-table.sql
